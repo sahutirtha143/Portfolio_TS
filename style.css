@@ -99,14 +99,19 @@ section{
 
 /* HOME SECTION */
 .home{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
    
    
 }
 .home-content{
-    margin-left: 120px;
+    
+    /* margin-left: 80px;
+    margin-right: 5vw; */
 }
 .home-content h3{
      font-size: 3rem;
@@ -126,8 +131,8 @@ span{
     
 }
 .home-img img{
-   margin-right: 120px;
-    height: 65vh;
+     /* margin-right: 80px; */
+    height: 75vh;
     box-shadow: 0 0 5px var(--main-color);
     animation: floatImage 4s ease-in-out infinite;
 
